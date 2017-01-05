@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Sorry that wasn't Correct....No worrys u can play again"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center"
+       android:id="@+id/score2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY AGAIN"
+        android:id="@+id/platygaianbutton"
+        android:onClick="PlayAgain"
+        />
+</LinearLayout>
