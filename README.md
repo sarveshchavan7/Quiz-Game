@@ -33,6 +33,11 @@
 ![capture3](https://cloud.githubusercontent.com/assets/22947683/21770992/80cd6a94-d63a-11e6-9032-4b03e6e6d786.PNG)
 ![capture4](https://cloud.githubusercontent.com/assets/22947683/21770994/813953ee-d63a-11e6-97e3-ecfb6c79f617.PNG)
 
+# Notice:
+Feel free to import the project in android studio ment for educational purpose (to learn to build the mcq type android appication)
+If you do like what you saw please give it a star!! it mean a lot to me.
+For any details email me -sarveshchavan777@gmail.com
+
 #License.md
 MIT License
 
