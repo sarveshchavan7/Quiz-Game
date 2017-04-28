@@ -25,7 +25,7 @@
 - ResultWon.java              // class file If you won the game by choosing all correct options.
 - timeup.java                 // If you exceeds time limit i.e=5min=300sec.
 - TriviaQuestion.java         // Question class which has get and set methods.
-- TriviaQuizHelper.java       // My question bank class.
+- TriviaQuizHelper.java       // My question bank class. NOTE-IF YOU WANT TO MODIFY THE QUESTIONS YOU CAN DO SO HERE AND AFTER THAT DONT FORGET TO INCREMENT THE "DATABASEVERSIONNUMBER" VARIABLE DECLARED IN THIS CLASS EACH TIME YOU MODIFY TO CHANGE TO TAKE PLACE.
 
 # Screenshots
 ![capture1](https://cloud.githubusercontent.com/assets/22947683/21770990/7ef9c3f2-d63a-11e6-95dd-afc016cec681.PNG)
