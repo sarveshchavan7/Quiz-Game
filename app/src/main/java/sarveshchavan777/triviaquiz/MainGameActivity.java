@@ -1,6 +1,7 @@
 package sarveshchavan777.triviaquiz;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +12,7 @@ import java.util.List;
 
 public class MainGameActivity extends AppCompatActivity {
     Button buttonA, buttonB, buttonC, buttonD;
-    TextView questionText;
+    TextView questionText,triviaQuizText;
     TriviaQuizHelper triviaQuizHelper;
     TriviaQuestion currentQuestion;
     List<TriviaQuestion> list;
@@ -28,6 +29,17 @@ public class MainGameActivity extends AppCompatActivity {
         buttonB = (Button) findViewById(R.id.buttonB);
         buttonC = (Button) findViewById(R.id.buttonC);
         buttonD = (Button) findViewById(R.id.buttonD);
+        triviaQuizText = (TextView)findViewById(R.id.triviaQuizText);
+
+        //setting typeface
+        Typeface tb = Typeface.createFromAsset(getAssets(),"fonts/TitilliumWeb-Bold.ttf");
+        Typeface sb = Typeface.createFromAsset(getAssets(),"fonts/shablagooital.ttf");
+        triviaQuizText.setTypeface(sb);
+        questionText.setTypeface(sb);
+        buttonA.setTypeface(tb);
+        buttonB.setTypeface(tb);
+        buttonC.setTypeface(tb);
+        buttonD.setTypeface(tb);
 
         triviaQuizHelper = new TriviaQuizHelper(this);
         triviaQuizHelper.getWritableDatabase();
