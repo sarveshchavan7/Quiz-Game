@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="Sorry that wasn't Correct....No worrys u can play again"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/playAgainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/play_again"
+        android:textColor="@color/white" />
+</LinearLayout>

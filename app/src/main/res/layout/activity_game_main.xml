@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="sarveshchavan777.triviaquiz.MainGameActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".5">
+    <TextView
+        android:id="@+id/triviaQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/question"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/buttonA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonA"
+        android:text=""
+        android:layout_margin="10dp"
+        android:textColor="@color/grey"
+        fbutton:buttonColor="@color/white"
+        fbutton:cornerRadius="10dp"
+        fbutton:shadowColor="@color/grey" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonB"
+        android:text=""
+        android:layout_margin="10dp"
+        android:textColor="@color/grey"
+        fbutton:buttonColor="@color/white"
+        fbutton:cornerRadius="10dp"
+        fbutton:shadowColor="@color/grey" />
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/buttonC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonC"
+        android:text=""
+        android:layout_margin="10dp"
+        android:textColor="@color/grey"
+        fbutton:buttonColor="@color/white"
+        fbutton:cornerRadius="10dp"
+        fbutton:shadowColor="@color/grey" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/buttonD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonD"
+        android:text=""
+        android:layout_margin="10dp"
+        android:textColor="@color/grey"
+        fbutton:buttonColor="@color/white"
+        fbutton:cornerRadius="10dp"
+        fbutton:shadowColor="@color/grey" />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

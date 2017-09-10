@@ -2,10 +2,6 @@ package sarveshchavan777.triviaquiz;
 
 import android.app.Activity;
 
-/**
- * Created by LENOVO on 1/4/2017.
- */
-
 public class TriviaQuestion extends Activity {
     private int id;
     private String question;
@@ -35,27 +31,23 @@ public class TriviaQuestion extends Activity {
         answer = "";
     }
 
-   /* public int getId() {
-        return id;
-    }*/
-
     public String getQuestion() {
         return question;
     }
 
-    public String getOpta() {
+    public String getOptA() {
         return opta;
     }
 
-    public String getOptb() {
+    public String getOptB() {
         return optb;
     }
 
-    public String getOptc() {
+    public String getOptC() {
         return optc;
     }
 
-    public String getOptd() {
+    public String getOptD() {
         return optd;
     }
 
@@ -71,19 +63,19 @@ public class TriviaQuestion extends Activity {
         question = q1;
     }
 
-    public void setOpta(String o1) {
+    public void setOptA(String o1) {
         opta = o1;
     }
 
-    public void setOptb(String o2) {
+    public void setOptB(String o2) {
         optb = o2;
     }
 
-    public void setOptc(String o3) {
+    public void setOptC(String o3) {
         optc = o3;
     }
 
-    public void setOptd(String o4) {
+    public void setOptD(String o4) {
         optd = o4;
     }
 
