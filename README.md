@@ -38,7 +38,7 @@
 - If you do like what you saw please give it a star!! it mean a lot to me.
 - For any details email me -sarveshchavan777@gmail.com
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YOUR_OWN)
+
 
 #License.md
 MIT License
