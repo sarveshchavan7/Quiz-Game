@@ -38,6 +38,8 @@
 - If you do like what you saw please give it a star!! it mean a lot to me.
 - For any details email me -sarveshchavan777@gmail.com
 
+![Donate] paypal.me/sarveshchavan
+
 #License.md
 MIT License
 
