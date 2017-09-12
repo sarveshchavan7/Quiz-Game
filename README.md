@@ -9,11 +9,12 @@
 
 # Features
 - Educational (General knowledge).
-- Added comments so it will help you understand code much better 
-- It has database to store questions with there options and answer
+- Added comments above code so it will help you understand code much better 
+- It has database to store questions 
 - Correct answer +1 coin
-- Timmer of 20 sec for each que
+- Timmer of 20 sec for each question
 - Good and Extensible UI.
+- Can be played offline 
 - Compatibility with Android API-14 and above
 - minSdkVersion 14
 - targetSdkVersion 25
@@ -34,7 +35,7 @@
 - It will help me to build more games  
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/sarveshchavan)
 
-
+# License
 #License.md
 MIT License
 
