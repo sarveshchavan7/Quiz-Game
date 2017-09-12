@@ -20,9 +20,12 @@
 - targetSdkVersion 25
 
 # Screenshots
-![screenshot_2017-09-12-18-09-11-050](https://user-images.githubusercontent.com/22947683/30327337-4d13662c-9791-11e7-9dc1-cbb662135f58.jpeg)
-![capture2](https://cloud.githubusercontent.com/assets/22947683/21770991/7fce6c06-d63a-11e6-927a-905013f3bfea.PNG)
-![capture3](https://cloud.githubusercontent.com/assets/22947683/21770992/80cd6a94-d63a-11e6-9032-4b03e6e6d786.PNG)
+![screenshot_2017-09-12-18-09-11-050](https://user-images.githubusercontent.com/22947683/30327745-d58f6054-9792-11e7-95f6-cc58f26a87de.jpg)
+![screenshot_2017-09-12-18-10-14-944](https://user-images.githubusercontent.com/22947683/30327761-dc22de64-9792-11e7-8f07-2a470352d6ae.jpg)
+![screenshot_2017-09-12-18-11-59-568](https://user-images.githubusercontent.com/22947683/30327767-e06793ac-9792-11e7-93c4-4f952042b0ed.jpg)
+![screenshot_2017-09-12-18-09-28-914](https://user-images.githubusercontent.com/22947683/30327776-e5c1f022-9792-11e7-8063-903ad3c06c6c.jpg)
+![screenshot_2017-09-12-18-09-53-445](https://user-images.githubusercontent.com/22947683/30327780-e91bd936-9792-11e7-8050-a051439294d5.jpg)
+![screenshot_2017-09-12-18-11-44-119](https://user-images.githubusercontent.com/22947683/30327828-0c65a0ac-9793-11e7-987c-20c00e70ff8a.jpg))
 ![capture4](https://cloud.githubusercontent.com/assets/22947683/21770994/813953ee-d63a-11e6-97e3-ecfb6c79f617.PNG)
 
 # Notice:
