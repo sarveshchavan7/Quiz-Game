@@ -1,31 +1,22 @@
 # TriviaQuiz
-- An android project to use for different types of multiple-choice quiz applications.
+- Quiz game for android
 - Written by Sarvesh chavan
 - Under The MIT License (MIT)
 - Copyright (c) 2017 Sarvesh chavan
 
 # Usage
-- Import the TriviaQuiz project into Android studio.
+- Import the TriviaQuiz game into Android studio.
 
 # Features
 - Educational (General knowledge).
-- Multiple choice answer mode.
-- Correct answer option score x5
-- Correct answer option level x1
-- Timmer 5min=300sec
-- Level 1-15
+- Added comments so it will help you understand code much better 
+- It has database to store questions with there options and answer
+- Correct answer +1 coin
+- Timmer of 20 sec for each que
 - Good and Extensible UI.
 - Compatibility with Android API-14 and above
 - minSdkVersion 14
 - targetSdkVersion 25
-
-#class files
-- MainActivity.java           // Main Activity
-- ResultPlayAgain.java        // Play gain class if you choose wrong answer option.
-- ResultWon.java              // class file If you won the game by choosing all correct options.
-- timeup.java                 // If you exceeds time limit i.e=5min=300sec.
-- TriviaQuestion.java         // Question class which has get and set methods.
-- TriviaQuizHelper.java       // My question bank class. NOTE-IF YOU WANT TO MODIFY THE QUESTIONS YOU CAN DO SO HERE AND AFTER THAT DONT FORGET TO INCREMENT THE "DATABASEVERSIONNUMBER" VARIABLE DECLARED IN THIS CLASS EACH TIME YOU MODIFY TO CHANGE TO TAKE PLACE.
 
 # Screenshots
 ![capture1](https://cloud.githubusercontent.com/assets/22947683/21770990/7ef9c3f2-d63a-11e6-95dd-afc016cec681.PNG)
@@ -38,6 +29,9 @@
 - If you do like what you saw please give it a star!! it mean a lot to me.
 - For any details email me -sarveshchavan777@gmail.com
 
+# Donation
+- If this project helps you reduce time to develop, you can give me a cup of coffee :)
+- It will help me to build more games  
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/sarveshchavan)
 
 
