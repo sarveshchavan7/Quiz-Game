@@ -6,16 +6,15 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class TriviaQuizHelper extends SQLiteOpenHelper {
+class TriviaQuizHelper extends SQLiteOpenHelper {
 
     private Context context;
-    private static final String DB_NAME= "TQuiz.db";
+    private static final String DB_NAME = "TQuiz.db";
 
     //If you want to add more questions or wanna update table values
     //or any kind of modification in db just increment version no.
@@ -72,42 +71,42 @@ public class TriviaQuizHelper extends SQLiteOpenHelper {
 
         arraylist.add(new TriviaQuestion("Who is the Flying Sikh of India ?", "Mohinder Singh", "Joginder Singh", "Ajit Pal Singh", "Milkha singh", "Milkha singh"));
 
-        TriviaQuestion q6 = new TriviaQuestion("The Indian to beat the computers in mathematical wizardry is", "Ramanujam", "Rina Panigrahi", "Raja Ramanna", "Shakunthala Devi", "Shakunthala Devi");
-        arraylist.add(q6);
-        TriviaQuestion q7 = new TriviaQuestion("Who is Larry Pressler ?", "Politician", "Painter", "Actor", "Tennis player", "Politician");
-        arraylist.add(q7);
-        TriviaQuestion q8 = new TriviaQuestion("Michael Jackson is a distinguished person in the field of ?", "Pop Music", "Jounalism", "Sports", "Acting", "Pop Music");
-        arraylist.add(q8);
-        TriviaQuestion q9 = new TriviaQuestion("The first Indian to swim across English channel was ?", "V. Merchant", "P. K. Banerji", "Mihir Sen", "Arati Saha", "Mihir Sen");
-        arraylist.add(q9);
-        TriviaQuestion q10 = new TriviaQuestion("Who was the first Indian to make a movie?", "Dhundiraj Govind Phalke", " Asha Bhonsle", " Ardeshir Irani", "V. Shantaram", "Dhundiraj Govind Phalke");
-        arraylist.add(q10);
-        TriviaQuestion q11 = new TriviaQuestion("Who is known as the ' Saint of the gutters ?", "B.R.Ambedkar", "Mother Teresa", "Mahatma Gandhi", "Baba Amte", "Mother Teresa");
-        arraylist.add(q11);
-        TriviaQuestion q12 = new TriviaQuestion("Who invented the famous formula E=mc^2", "Albert Einstein", "Galilio", "Sarvesh", "Bill Gates", "Albert Einstein");
-        arraylist.add(q12);
-        TriviaQuestion q13 = new TriviaQuestion("Who is elected as president of us 2016", "Donald Trump", "Hilary Clinton", "Jhon pol", "Barack Obama", "Donald Trump");
-        arraylist.add(q13);
-        TriviaQuestion q14 = new TriviaQuestion("Who was the founder of company Microsoft", "Bill Gates", "Bill Clinton", "Jhon rio", "Steve jobs", "Bill Gates");
-        arraylist.add(q14);
-        TriviaQuestion q15 = new TriviaQuestion("Who was the founder of company Apple ?", "Steve Jobs", "Steve Washinton", "Bill Gates", "Jobs Wills", "Steve Jobs");
-        arraylist.add(q15);
-        TriviaQuestion q16 = new TriviaQuestion("Who was the founder of company Google ?", "Steve Jobs", "Bill Gates", "Larry Page", "Sundar Pichai", "Larry Page");
-        arraylist.add(q16);
-        TriviaQuestion q17 = new TriviaQuestion("Who is know as god of cricket ?", "Sachin Tendulkar", "Kapil Dev", "Virat Koli", "Dhoni", "Sachin Tendulkar");
-        arraylist.add(q17);
-        TriviaQuestion q18 = new TriviaQuestion("who has won ballon d'or of 2015 ?", "Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kaka", "Lionel Messi");
-        arraylist.add(q18);
-        TriviaQuestion q19 = new TriviaQuestion("who has won ballon d'or of 2014 ?", "Neymar", "Lionel Messi", "Cristiano Ronaldo", "Kaka", "Cristiano Ronaldo");
-        arraylist.add(q19);
-        TriviaQuestion q20 = new TriviaQuestion("the Founder of the most famous gaming platform steam is ?", "Bill Cliton", "Bill Williams", "Gabe Newell", "Bill Gates", "Gabe Newell");
-        arraylist.add(q20);
+        arraylist.add(new TriviaQuestion("The Indian to beat the computers in mathematical wizardry is", "Ramanujam", "Rina Panigrahi", "Raja Ramanna", "Shakunthala Devi", "Shakunthala Devi"));
+
+        arraylist.add(new TriviaQuestion("Who is Larry Pressler ?", "Politician", "Painter", "Actor", "Tennis player", "Politician"));
+
+        arraylist.add(new TriviaQuestion("Michael Jackson is a distinguished person in the field of ?", "Pop Music", "Jounalism", "Sports", "Acting", "Pop Music"));
+
+        arraylist.add(new TriviaQuestion("The first Indian to swim across English channel was ?", "V. Merchant", "P. K. Banerji", "Mihir Sen", "Arati Saha", "Mihir Sen"));
+
+        arraylist.add(new TriviaQuestion("Who was the first Indian to make a movie?", "Dhundiraj Govind Phalke", " Asha Bhonsle", " Ardeshir Irani", "V. Shantaram", "Dhundiraj Govind Phalke"));
+
+        arraylist.add(new TriviaQuestion("Who is known as the ' Saint of the gutters ?", "B.R.Ambedkar", "Mother Teresa", "Mahatma Gandhi", "Baba Amte", "Mother Teresa"));
+
+        arraylist.add(new TriviaQuestion("Who invented the famous formula E=mc^2", "Albert Einstein", "Galilio", "Sarvesh", "Bill Gates", "Albert Einstein"));
+
+        arraylist.add(new TriviaQuestion("Who is elected as president of us 2016", "Donald Trump", "Hilary Clinton", "Jhon pol", "Barack Obama", "Donald Trump"));
+
+        arraylist.add(new TriviaQuestion("Who was the founder of company Microsoft", "Bill Gates", "Bill Clinton", "Jhon rio", "Steve jobs", "Bill Gates"));
+
+        arraylist.add(new TriviaQuestion("Who was the founder of company Apple ?", "Steve Jobs", "Steve Washinton", "Bill Gates", "Jobs Wills", "Steve Jobs"));
+
+        arraylist.add(new TriviaQuestion("Who was the founder of company Google ?", "Steve Jobs", "Bill Gates", "Larry Page", "Sundar Pichai", "Larry Page"));
+
+        arraylist.add(new TriviaQuestion("Who is know as god of cricket ?", "Sachin Tendulkar", "Kapil Dev", "Virat Koli", "Dhoni", "Sachin Tendulkar"));
+
+        arraylist.add(new TriviaQuestion("who has won ballon d'or of 2015 ?", "Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kaka", "Lionel Messi"));
+
+        arraylist.add(new TriviaQuestion("who has won ballon d'or of 2014 ?", "Neymar", "Lionel Messi", "Cristiano Ronaldo", "Kaka", "Cristiano Ronaldo"));
+
+        arraylist.add(new TriviaQuestion("the Founder of the most famous gaming platform steam is ?", "Bill Cliton", "Bill Williams", "Gabe Newell", "Bill Gates", "Gabe Newell"));
+
         this.addAllQuestions(arraylist);
 
     }
 
 
-    public void addAllQuestions(ArrayList<TriviaQuestion> allQuestions) {
+    private void addAllQuestions(ArrayList<TriviaQuestion> allQuestions) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.beginTransaction();
         try {
@@ -129,10 +128,7 @@ public class TriviaQuizHelper extends SQLiteOpenHelper {
     }
 
 
-
-
-
-    public List<TriviaQuestion> getAllOfTheQuestions() {
+    List<TriviaQuestion> getAllOfTheQuestions() {
 
         List<TriviaQuestion> questionsList = new ArrayList<>();
         SQLiteDatabase db = this.getWritableDatabase();

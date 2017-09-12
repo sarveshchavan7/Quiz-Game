@@ -13,6 +13,8 @@ public class GameWon extends Activity {
         setContentView(R.layout.game_won);
     }
 
+    //This is onclick listener for button
+    //it will navigate from this activity to MainGameActivity
     public void PlayAgain(View view) {
         Intent intent = new Intent(GameWon.this, MainGameActivity.class);
         startActivity(intent);
