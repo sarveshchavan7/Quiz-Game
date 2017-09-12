@@ -18,5 +18,6 @@
         android:textColor="@color/white"
         android:id="@+id/platygaianbutton"
         android:layout_margin="15dp"
+        android:onClick="PlayAgain"
         />
 </LinearLayout>

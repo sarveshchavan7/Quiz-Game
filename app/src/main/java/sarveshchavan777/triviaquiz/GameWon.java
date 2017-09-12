@@ -13,7 +13,7 @@ public class GameWon extends Activity {
         setContentView(R.layout.game_won);
     }
 
-    public void PlayAgain1(View view) {
+    public void PlayAgain(View view) {
         Intent intent = new Intent(GameWon.this, MainGameActivity.class);
         startActivity(intent);
         finish();
