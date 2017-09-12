@@ -26,7 +26,7 @@
 ![screenshot_2017-09-12-18-09-28-914](https://user-images.githubusercontent.com/22947683/30327776-e5c1f022-9792-11e7-8063-903ad3c06c6c.jpg)
 ![screenshot_2017-09-12-18-09-53-445](https://user-images.githubusercontent.com/22947683/30327780-e91bd936-9792-11e7-8050-a051439294d5.jpg)
 ![screenshot_2017-09-12-18-11-44-119](https://user-images.githubusercontent.com/22947683/30327828-0c65a0ac-9793-11e7-987c-20c00e70ff8a.jpg))
-![capture4](https://cloud.githubusercontent.com/assets/22947683/21770994/813953ee-d63a-11e6-97e3-ecfb6c79f617.PNG)
+
 
 # Notice:
 - Feel free to import the project in android studio it is for educational purpose (to learn to build the quiz type android appication)
