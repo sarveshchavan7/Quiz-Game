@@ -11,8 +11,8 @@
 - Educational (General knowledge).
 - Added comments above code so it will help you understand code much better 
 - It has database to store questions 
-- Correct answer +1 coin
-- Timmer of 20 sec for each question
+- Correct answer +1 coin (Coins at top left corner)
+- Timmer of 20 sec for each question (Timer at top right corner)
 - Good and Extensible UI.
 - Can be played offline 
 - Compatibility with Android API-14 and above
