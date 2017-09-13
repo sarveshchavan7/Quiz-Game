@@ -1,46 +1,46 @@
 # TriviaQuiz
-- An android project to use for different types of multiple-choice quiz applications.
+- Quiz game for android
 - Written by Sarvesh chavan
 - Under The MIT License (MIT)
 - Copyright (c) 2017 Sarvesh chavan
 
 # Usage
-- Import the TriviaQuiz project into Android studio.
+- Import the TriviaQuiz game into Android studio.
 
 # Features
 - Educational (General knowledge).
-- Multiple choice answer mode.
-- Correct answer option score x5
-- Correct answer option level x1
-- Timmer 5min=300sec
-- Level 1-15
+- Added comments above code so it will help you understand code much better 
+- It has database to store questions 
+- Correct answer +1 coin (Coins at top left corner)
+- Timmer of 20 sec for each question (Timer at top right corner)
+- Random questions at each play (It will peek random ques and will show it to the user)
 - Good and Extensible UI.
+- Can be played offline 
 - Compatibility with Android API-14 and above
 - minSdkVersion 14
 - targetSdkVersion 25
 
-#class files
-- MainActivity.java           // Main Activity
-- ResultPlayAgain.java        // Play gain class if you choose wrong answer option.
-- ResultWon.java              // class file If you won the game by choosing all correct options.
-- timeup.java                 // If you exceeds time limit i.e=5min=300sec.
-- TriviaQuestion.java         // Question class which has get and set methods.
-- TriviaQuizHelper.java       // My question bank class. NOTE-IF YOU WANT TO MODIFY THE QUESTIONS YOU CAN DO SO HERE AND AFTER THAT DONT FORGET TO INCREMENT THE "DATABASEVERSIONNUMBER" VARIABLE DECLARED IN THIS CLASS EACH TIME YOU MODIFY TO CHANGE TO TAKE PLACE.
-
 # Screenshots
-![capture1](https://cloud.githubusercontent.com/assets/22947683/21770990/7ef9c3f2-d63a-11e6-95dd-afc016cec681.PNG)
-![capture2](https://cloud.githubusercontent.com/assets/22947683/21770991/7fce6c06-d63a-11e6-927a-905013f3bfea.PNG)
-![capture3](https://cloud.githubusercontent.com/assets/22947683/21770992/80cd6a94-d63a-11e6-9032-4b03e6e6d786.PNG)
-![capture4](https://cloud.githubusercontent.com/assets/22947683/21770994/813953ee-d63a-11e6-97e3-ecfb6c79f617.PNG)
+![screenshot_2017-09-12-18-09-11-050](https://user-images.githubusercontent.com/22947683/30327745-d58f6054-9792-11e7-95f6-cc58f26a87de.jpg)
+![screenshot_2017-09-12-18-10-14-944](https://user-images.githubusercontent.com/22947683/30327761-dc22de64-9792-11e7-8f07-2a470352d6ae.jpg)
+![screenshot_2017-09-12-18-11-59-568](https://user-images.githubusercontent.com/22947683/30327767-e06793ac-9792-11e7-93c4-4f952042b0ed.jpg)
+![screenshot_2017-09-12-18-09-28-914](https://user-images.githubusercontent.com/22947683/30327776-e5c1f022-9792-11e7-8063-903ad3c06c6c.jpg)
+![screenshot_2017-09-12-18-09-53-445](https://user-images.githubusercontent.com/22947683/30327780-e91bd936-9792-11e7-8050-a051439294d5.jpg)
+![screenshot_2017-09-12-18-11-44-119](https://user-images.githubusercontent.com/22947683/30327828-0c65a0ac-9793-11e7-987c-20c00e70ff8a.jpg))
+
+
 
 # Notice:
-- Feel free to import the project in android studio ment for educational purpose (to learn to build the mcq type android appication)
-- If you do like what you saw please give it a star!! it mean a lot to me.
-- For any details email me -sarveshchavan777@gmail.com
+- Feel free to import the project in android studio it is for educational purpose (to learn to build the quiz type android appication)
+- If you do like what you saw please give it a star!! it mean a lot to me it boosts me to build more game and help you guys.
+- For any details or query fill free to email me - sarveshchavan777@gmail.com
 
+# Donation
+- If this project helps you reduce time to develop, you can give me a cup of coffee :)
+- It will help me to build more games  
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/sarveshchavan)
 
-
+# License
 #License.md
 MIT License
 
