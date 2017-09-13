@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.CountDownTimer;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -142,7 +143,7 @@ public class MainGameActivity extends AppCompatActivity {
     public void buttonA(View view) {
         //compare the option with the ans if yes then make button color green
         if (currentQuestion.getOptA().equals(currentQuestion.getAnswer())) {
-            buttonA.setButtonColor(getResources().getColor(R.color.lightGreen));
+            buttonA.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
             //Check if user has not exceeds the que limit
             if (qid < list.size() - 1) {
 
@@ -171,7 +172,7 @@ public class MainGameActivity extends AppCompatActivity {
     //Onclick listener for sec button
     public void buttonB(View view) {
         if (currentQuestion.getOptB().equals(currentQuestion.getAnswer())) {
-            buttonB.setButtonColor(getResources().getColor(R.color.lightGreen));
+            buttonB.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
             if (qid < list.size() - 1) {
                 disableButton();
                 correctDialog();
@@ -186,7 +187,7 @@ public class MainGameActivity extends AppCompatActivity {
     //Onclick listener for third button
     public void buttonC(View view) {
         if (currentQuestion.getOptC().equals(currentQuestion.getAnswer())) {
-            buttonC.setButtonColor(getResources().getColor(R.color.lightGreen));
+            buttonC.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
             if (qid < list.size() - 1) {
                 disableButton();
                 correctDialog();
@@ -201,7 +202,7 @@ public class MainGameActivity extends AppCompatActivity {
     //Onclick listener for fourth button
     public void buttonD(View view) {
         if (currentQuestion.getOptD().equals(currentQuestion.getAnswer())) {
-            buttonD.setButtonColor(getResources().getColor(R.color.lightGreen));
+            buttonD.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
             if (qid < list.size() - 1) {
                 disableButton();
                 correctDialog();
@@ -312,10 +313,10 @@ public class MainGameActivity extends AppCompatActivity {
 
     //This method will make button color white again since our one button color was turned green
     public void resetColor() {
-        buttonA.setButtonColor(getResources().getColor(R.color.white));
-        buttonB.setButtonColor(getResources().getColor(R.color.white));
-        buttonC.setButtonColor(getResources().getColor(R.color.white));
-        buttonD.setButtonColor(getResources().getColor(R.color.white));
+        buttonA.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
+        buttonB.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
+        buttonC.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
+        buttonD.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
     }
 
     //This method will disable all the option button
