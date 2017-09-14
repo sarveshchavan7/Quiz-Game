@@ -41,7 +41,7 @@
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/sarveshchavan)
 
 # License
-#License.md
+<pre>
 MIT License
 
 Copyright (c) 2017 sarvesh chavan
