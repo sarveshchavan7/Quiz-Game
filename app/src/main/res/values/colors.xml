@@ -9,5 +9,6 @@
     <color name="lightGreen">#8BC34A</color>
     <color name="green">#008000</color>
     <color name="red">#FF0000</color>
+
     <color name="transparent">#88000000</color>
 </resources>

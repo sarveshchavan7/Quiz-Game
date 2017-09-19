@@ -195,6 +195,7 @@ public class MainGameActivity extends AppCompatActivity {
                 gameWon();
             }
         } else {
+
             gameLostPlayAgain();
         }
     }
