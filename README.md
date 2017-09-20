@@ -35,6 +35,11 @@
 - If you do like what you saw please give it a star!! ![star](https://user-images.githubusercontent.com/22947683/30509991-c2950a48-9a81-11e7-9023-48796c02d00f.PNG) it mean a lot to me it boosts me to build more game and help you guys.
 - For any details or query fill free to email me - sarveshchavan777@gmail.com
 
+# Other games
+Do check out my other games
+- Trivia Knowledge
+- Math Game
+
 # Donation
 - If this project helps you reduce time to develop, you can give me a cup of coffee :)
 - It will help me to build more games  
