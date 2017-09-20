@@ -37,7 +37,7 @@
 
 # Other games
 Do check out my other games
-- Trivia Knowledge
+- [Trivia Knowledge](https://github.com/sarveshchavan7/Trivia-Knowledge)
 - Math Game
 
 # Donation
