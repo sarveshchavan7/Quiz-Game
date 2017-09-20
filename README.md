@@ -30,7 +30,7 @@
 
 
 
-# Notice:
+# Notice
 - Feel free to import the project in android studio it is for educational purpose (to learn to build the quiz type android appication)
 - If you do like what you saw please give it a star!! ![star](https://user-images.githubusercontent.com/22947683/30509991-c2950a48-9a81-11e7-9023-48796c02d00f.PNG) it mean a lot to me it boosts me to build more game and help you guys.
 - For any details or query fill free to email me - sarveshchavan777@gmail.com
