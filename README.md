@@ -1,4 +1,4 @@
-# TriviaQuiz
+# Quiz Game
 - Quiz game for android
 - Written by Sarvesh chavan
 - Under The MIT License (MIT)
