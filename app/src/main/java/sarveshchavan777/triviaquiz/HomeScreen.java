@@ -17,9 +17,9 @@ public class HomeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
-        playGame =(FButton)findViewById(R.id.playGame);
-        quit = (FButton) findViewById(R.id.quit);
-        tQ = (TextView)findViewById(R.id.tQ);
+        //the below method will initialize views
+        initViews();
+
         //PlayGame button - it will take you to the MainGameActivity
         playGame.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +29,7 @@ public class HomeScreen extends AppCompatActivity {
                 finish();
             }
         });
+
         //Quit button - This will quit the game
         quit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +37,13 @@ public class HomeScreen extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    private void initViews() {
+        //initialize views here
+        playGame =(FButton)findViewById(R.id.playGame);
+        quit = (FButton) findViewById(R.id.quit);
+        tQ = (TextView)findViewById(R.id.tQ);
 
         //Typeface - this is for fonts style
         Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/shablagooital.ttf");

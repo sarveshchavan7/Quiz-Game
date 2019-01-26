@@ -20,9 +20,4 @@ public class GameWon extends Activity {
         startActivity(intent);
         finish();
     }
-
-    @Override
-    public void onBackPressed() {
-        finish();
-    }
 }
