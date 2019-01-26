@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fbutton="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundColor"
-    android:orientation="vertical"
-    tools:context="sarveshchavan777.triviaquiz.MainGameActivity">
+    android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -26,27 +24,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/coin" />
+
             <TextView
                 android:id="@+id/coinText"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text=""
-                android:paddingRight="5dp"
-                android:paddingLeft="5dp"
+                android:layout_toRightOf="@id/coinImage"
                 android:gravity="center"
-                android:textSize="20sp"
-                android:layout_toRightOf="@id/coinImage"/>
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text=""
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/triviaQuizText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/timeText"
+                android:layout_toRightOf="@+id/coinText"
                 android:gravity="center"
                 android:text="@string/app_name"
                 android:textColor="@color/white"
-                android:textSize="25sp"
-                android:layout_toLeftOf="@+id/timeText"
-                android:layout_toRightOf="@+id/coinText" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/timeText"
@@ -54,8 +53,8 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:paddingLeft="10dp"
                 android:gravity="center"
+                android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/time"
                 android:textSize="20sp" />
@@ -109,10 +108,7 @@
             android:layout_margin="10dp"
             android:onClick="buttonA"
             android:text=""
-            android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textColor="@color/grey"></info.hoang8f.widget.FButton>
 
         <info.hoang8f.widget.FButton
             android:id="@+id/buttonB"
@@ -121,10 +117,7 @@
             android:layout_margin="10dp"
             android:onClick="buttonB"
             android:text=""
-            android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textColor="@color/grey" />
 
 
         <info.hoang8f.widget.FButton
@@ -134,10 +127,7 @@
             android:layout_margin="10dp"
             android:onClick="buttonC"
             android:text=""
-            android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textColor="@color/grey" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/buttonD"
@@ -146,10 +136,7 @@
             android:layout_margin="10dp"
             android:onClick="buttonD"
             android:text=""
-            android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textColor="@color/grey" />
 
     </LinearLayout>
 

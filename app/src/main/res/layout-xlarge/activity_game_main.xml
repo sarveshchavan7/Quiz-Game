@@ -26,27 +26,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/coin" />
+
             <TextView
                 android:id="@+id/coinText"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text=""
-                android:paddingRight="5dp"
-                android:paddingLeft="5dp"
+                android:layout_toRightOf="@id/coinImage"
                 android:gravity="center"
-                android:textSize="30sp"
-                android:layout_toRightOf="@id/coinImage"/>
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text=""
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/triviaQuizText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/timeText"
+                android:layout_toRightOf="@+id/coinText"
                 android:gravity="center"
                 android:text="@string/app_name"
                 android:textColor="@color/white"
-                android:textSize="35sp"
-                android:layout_toLeftOf="@+id/timeText"
-                android:layout_toRightOf="@+id/coinText" />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/timeText"
@@ -54,8 +55,8 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:paddingLeft="10dp"
                 android:gravity="center"
+                android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/time"
                 android:textSize="25sp" />
@@ -109,11 +110,8 @@
             android:layout_margin="10dp"
             android:onClick="buttonA"
             android:text=""
-            android:textSize="23sp"
             android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textSize="23sp" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/buttonB"
@@ -122,11 +120,8 @@
             android:layout_margin="10dp"
             android:onClick="buttonB"
             android:text=""
-            android:textSize="23sp"
             android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textSize="23sp" />
 
 
         <info.hoang8f.widget.FButton
@@ -136,11 +131,8 @@
             android:layout_margin="10dp"
             android:onClick="buttonC"
             android:text=""
-            android:textSize="23sp"
             android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textSize="23sp" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/buttonD"
@@ -149,11 +141,8 @@
             android:layout_margin="10dp"
             android:onClick="buttonD"
             android:text=""
-            android:textSize="23sp"
             android:textColor="@color/grey"
-            fbutton:buttonColor="@color/white"
-            fbutton:cornerRadius="10dp"
-            fbutton:shadowColor="@color/grey" />
+            android:textSize="23sp" />
 
     </LinearLayout>
 
