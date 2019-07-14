@@ -42,11 +42,6 @@ Do check out my other games
 - [Math Game](https://github.com/sarveshchavan7/Math-game)
 
 
-# Donation
-- If this project helps you reduce time to develop, you can give me a cup of coffee :)
-- It will help me to build more games  
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/sarveshchavan)
-
 # License
 <pre>
 MIT License
