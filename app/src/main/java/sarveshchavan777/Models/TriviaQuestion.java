@@ -1,4 +1,4 @@
-package sarveshchavan777.triviaquiz;
+package sarveshchavan777.Models;
 
 import android.app.Activity;
 

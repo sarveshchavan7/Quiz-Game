@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundColor"
     android:orientation="vertical"
-    tools:context="sarveshchavan777.triviaquiz.MainGameActivity">
+    tools:context="sarveshchavan777.triviaquiz.sarveshchavan777.Views.MainGameActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"

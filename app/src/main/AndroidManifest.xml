@@ -8,17 +8,17 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".HomeScreen">
+        <activity android:name="sarveshchavan777.Views.HomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlayAgain" />
-        <activity android:name=".GameWon" />
-        <activity android:name=".Time_Up" />
-        <activity android:name=".MainGameActivity">
+        <activity android:name="sarveshchavan777.Views.PlayAgain" />
+        <activity android:name="sarveshchavan777.Views.GameWon" />
+        <activity android:name="sarveshchavan777.Views.Time_Up" />
+        <activity android:name="sarveshchavan777.Views.MainGameActivity">
 
         </activity>
     </application>

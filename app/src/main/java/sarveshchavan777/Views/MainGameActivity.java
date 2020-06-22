@@ -1,4 +1,4 @@
-package sarveshchavan777.triviaquiz;
+package sarveshchavan777.Views;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -17,6 +17,10 @@ import java.util.List;
 
 
 import info.hoang8f.widget.FButton;
+import sarveshchavan777.DB_Model.TriviaQuizHelper;
+import sarveshchavan777.triviaquiz.R;
+import sarveshchavan777.Models.TriviaQuestion;
+import sarveshchavan777.DB_Model.TriviaQuizHelper;
 
 public class MainGameActivity extends AppCompatActivity {
     FButton buttonA, buttonB, buttonC, buttonD;

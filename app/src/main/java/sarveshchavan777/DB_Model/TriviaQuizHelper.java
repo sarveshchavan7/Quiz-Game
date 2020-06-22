@@ -1,4 +1,4 @@
-package sarveshchavan777.triviaquiz;
+package sarveshchavan777.DB_Model;
 
 
 import android.content.ContentValues;
@@ -10,8 +10,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 
+import sarveshchavan777.Models.TriviaQuestion;
 
-class TriviaQuizHelper extends SQLiteOpenHelper {
+
+public class TriviaQuizHelper extends SQLiteOpenHelper {
 
     private Context context;
     private static final String DB_NAME = "TQuiz.db";
@@ -40,7 +42,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
     //Drop table query
     private static final String DROP_TABLE = "DROP TABLE IF EXISTS " + TABLE_NAME;
 
-    TriviaQuizHelper(Context context) {
+    public TriviaQuizHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
         this.context = context;
     }
@@ -58,7 +60,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
     }
 
-    void allQuestion() {
+  public void allQuestion() {
         ArrayList<TriviaQuestion> arraylist = new ArrayList<>();
 
         arraylist.add(new TriviaQuestion("Galileo was an Italian astronomer who developed?", "Telescope", "Airoplane", "Electricity", "Train", "Telescope"));
@@ -128,7 +130,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
     }
 
 
-    List<TriviaQuestion> getAllOfTheQuestions() {
+    public List<TriviaQuestion> getAllOfTheQuestions() {
 
         List<TriviaQuestion> questionsList = new ArrayList<>();
         SQLiteDatabase db = this.getWritableDatabase();
