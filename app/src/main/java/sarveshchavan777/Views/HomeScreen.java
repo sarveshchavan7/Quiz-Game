@@ -1,4 +1,4 @@
-package sarveshchavan777.triviaquiz;
+package sarveshchavan777.Views;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import info.hoang8f.widget.FButton;
+import sarveshchavan777.triviaquiz.R;
 
 public class HomeScreen extends AppCompatActivity {
     FButton playGame,quit;
@@ -24,7 +25,7 @@ public class HomeScreen extends AppCompatActivity {
         playGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomeScreen.this,MainGameActivity.class);
+                Intent intent = new Intent(HomeScreen.this, MainGameActivity.class);
                 startActivity(intent);
                 finish();
             }
