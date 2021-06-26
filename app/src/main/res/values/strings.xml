@@ -6,8 +6,8 @@
     <string name="correct">Correct</string>
     <string name="wrongans">Opps the ans was wrong</string>
     <string name="timeup">Time Up</string>
-    <string name="play_game">Play Game</string>
+    <string name="play_game">Level 1</string>
     <string name="quit">Quit</string>
-    <string name="next">Next</string>
+    <string name="next">Next Level</string>
     <string name="cancel">✖</string>
 </resources>

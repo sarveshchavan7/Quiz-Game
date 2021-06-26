@@ -25,7 +25,7 @@
                 android:id="@+id/coinImage"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/coin" />
+                android:src="@mipmap/steps" />
 
             <TextView
                 android:id="@+id/coinText"
